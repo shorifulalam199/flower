@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ..............Common Style Apply ....................... */
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+button{
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px ;
+}
+/* .............Header Section style............... */
+/* header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.container{
+    display: flex;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+.banner-text h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+
+.banner-image img{
+    width: 100%;
+    vertical-align: middle;
+    
+} */
+
+header{
+    background-color: rgba(229, 84, 115, 0.10);;
+}
+
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+
+.banner-text h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 32px;
+    width: 525px;
+}
+.banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 32px;
+    width: 608px;
+}
+button{
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #c71038;
+    transition: all 0.8s;
+}
+.banner-image img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#featured{
+    padding: 180px 0;
+}
+.section-heading{
+    max-width: 594px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.section-heading p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 48px;
+    }
+.section-content{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: end;
+        
+
+    }
+.section-content .flower .flower-img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+     padding: 30px 25px 0px ;
+    display: flex;
+    align-items: end;
+   
+    
+}
+.section-content .flower .flower-img img{
+    width: 310px;
+    height: 428px;
+}
+.section-content .flower .pink{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.section-content .flower .blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .green{
+    background-color: rgba(71, 125, 17, 0.15) ;
+}
+.section-content .flower p{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+.declivery-container{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.delivery{
+    padding-top: 86px;
+    padding-bottom: 87px 
+}
+#hot-deal{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 128px;
+}
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
+.hot-deal-text {
+max-width: 550px;
+text-align: center;
+
+}
+.hot-deal-text *{
+margin-bottom: 24px;
+}
+
+.hot-deal-text h2{
+color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.off{
+color: #E55473;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.hot-deal-text p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.hot-deal-img{
+    max-width: 318px;
+}
+
+.instagram-content{
+    text-align: center;
+    margin-top: 128px;
+}
+.instagram-content *{
+    margin-bottom: 24px;
+}
+.instagram-content h2{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.instagram-content p{
+    max-width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin: auto;
+}
+
+.instagram-imgage{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.instagram-imgage img{
+    width: 100%;
+}
+
+#newslatter{
+    margin: 128px 0;
+}
+.background-newslatter{
+    background-image: url(Rectangle\ 9.png);
+    padding: 122px 0;
+    background-repeat: no-repeat;
+    
+}
+
+.background-newslatter form{
+    max-width: 800px ;
+    margin: 20px auto;
+    display: flex;
+    gap: 24px;
+}
+.background-newslatter form input{
+    flex-grow: 1;
+    border: none;
+    padding-left: 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    outline: none;
+}
+#footer{
+    background: #111010;
+    margin-bottom: 0;
+   
+}
+.last-footer *{
+        text-align: center;
+        
+}
+
+.last-footer h2{
+    color: #FFF;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.important{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.last-footer p{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin: 30px 0;
+}
+
+.last-line{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 128px;
+}
